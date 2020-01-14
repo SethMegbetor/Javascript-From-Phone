@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  /*the minimum screen size should be equal to that, which is the full window*/
+  display: flex;
+  justify-content: center;
+  /*horizontally center*/
+  align-items: center;
+  /*vertically center*/
+}
+
+.colorBtn {
+  padding: 0.25rem 0.5rem;
+  border: 3px solid #fefefe;
+  border-radius: 7px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+
+.colorBtn:hover{
+  background: rgba(0, 0, 0);
+}
